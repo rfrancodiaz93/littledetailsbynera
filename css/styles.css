@@ -101,19 +101,22 @@ main{
 	padding-top: 60px;
   }
   
-  .sidenavclass a {
+  .sidenav-links {
 	padding: 8px 8px 8px 32px;
 	text-decoration: none;
 	font-size: 25px;
-	color: #818181;
+	color: white;
 	display: block;
 	transition: 0.3s;
+	text-transform: uppercase;
+
   }
   
-  .sidenavclass a:hover {
-	color: #f1f1f1;
-  }
-  
+ 
+.sidenav-links:hover{
+	color: #e5b436;
+} 
+ 
   .sidenavclass .closebtn {
 	position: absolute;
 	top: 0;
@@ -122,16 +125,6 @@ main{
 	margin-left: 50px;
   }
   
-.sidenav-links{
-
-	text-transform: uppercase;
-	color: white;
-}
-
-.sidenav-links{
-	color: #e5b436;
-}
-
 
 /********			personalizer link			********/
 .personalizer-link-wrapper{
