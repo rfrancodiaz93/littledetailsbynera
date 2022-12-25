@@ -6,12 +6,12 @@
 	
 	<title>littledetailsbynera | MUG</title>
 
-	<link rel="stylesheet" href="./css/styles.css">
+	<link rel="stylesheet" href="../css/styles.css">
 	
 </head>
 <body>
 	<header>
-		<a class="logo-link" href="index.html"><img id="header-logo" src="./images/littledetailsbynera.jpeg" alt="logo"></a>
+		<a class="logo-link" href="../index.html"><img id="header-logo" src="../images/littledetailsbynera.jpeg" alt="logo"></a>
 		<div class="space space01"></div>
 		<nav>
 			<ul>
@@ -25,66 +25,34 @@
 
 
 	<main>
-		
-		<div class="personalizer-link-wrapper">
-			<!-- personalizer link:  -->
-			<a class="personalizer-link" href="#">
+		<span class="sandwhich-btn">&#9776; </span>
+		<div class="sidenavclass" id="sidenavid">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            
+            <a href="#" class="sidenav-links">mugs</a>
+            <a href="#" class="sidenav-links">sweater</a>
+            <a href="#" class="sidenav-links">balloons</a>
+            <a href="#" class="sidenav-links">tshirt</a>
+            <a href="#" class="sidenav-links">caketoppers</a>
+            <a href="#" class="sidenav-links">burlapbags</a>
 
-			  <img class="personalizer-link-image" src="./images/mug.png" alt="Mugs" width="200" height="300">
-			  <p class="personalizer-link-caption">Mug</p>
-
-			</a>
-
-			<!-- personalizer link:  -->
-			<a class="personalizer-link" href="#">
-
-			  <img class="personalizer-link-image" src="./images/sweater.png" alt="Mugs" width="200" height="300">
-			  <p class="personalizer-link-caption">Sweaters</p>
-
-			</a>
-
-			<!-- personalizer link:  -->
-			<a class="personalizer-link" href="#">
-
-			  <img class="personalizer-link-image" src="./images/balloons.png" alt="Mugs" width="200" height="300">
-			  <p class="personalizer-link-caption">Balloons</p>
-
-			</a>
-
-			<!-- personalizer link:  -->
-			<a class="personalizer-link" href="#">
-
-			  <img class="personalizer-link-image" src="./images/tshirt.png" alt="Mugs" width="200" height="300">
-			  <p class="personalizer-link-caption">T-Shirt</p>
-
-			</a>
-
-			<!-- personalizer link:  -->
-			<a class="personalizer-link" href="#">
-
-			  <img class="personalizer-link-image" src="./images/caketoppers.png" alt="Mugs" width="200" height="300">
-			  <p class="personalizer-link-caption">Cake-topper</p>
-
-			</a>
-
-
-
-			<!-- personalizer link:  -->
-			<a class="personalizer-link" href="#">
-
-			  <img class="personalizer-link-image" src="./images/burlapbags.png" alt="Mugs" width="200" height="300">
-			  <p class="personalizer-link-caption">burlop-bags</p>
-
-			</a>
-
-		</div>
-
+        </div>
 
 		
 	</main>
 	<footer>
 		<p class="footer-caption">Copyright &copy; <a href="https://www.fdzwebsllc.com" class="footer-link">fdzwebsllc</a></p>
 	</footer>
-	<script src="js/main.js"></script>
+	<script src="../js/main.js"></script>
+    <script>
+
+        function openNav(){
+            document.getElementById('sidenavid').style.width = "250px";
+        }
+
+        function closeNav(){
+            document.getElementById('sidenavid').style.width = "250px";
+        }
+    </script>
 </body>
 </html>
