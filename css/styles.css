@@ -84,6 +84,9 @@ main{
 
 /********** sidenavbar *************/
 
+.sandwhich-btn{
+	font-size: 1.8em;
+}
 
 .sidenavclass {
 	height: 100%;
