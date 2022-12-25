@@ -115,6 +115,7 @@ main{
  
 .sidenav-links:hover{
 	color: #e5b436;
+	border: 2px solid #e5b436;
 } 
  
   .sidenavclass .closebtn {
