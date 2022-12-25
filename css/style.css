@@ -1,0 +1,136 @@
+
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+/*********		Header	**************/
+
+header{
+
+	display: flex;
+	padding: 2% 0 1% 0;
+	background-color: #00c4c2;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+.logo-link{
+	display: block;
+	text-decoration: none;
+	margin: 0 0 0 5%;
+
+	width: 10%;
+	height: 10vh;
+
+}
+
+#header-logo{
+
+	width: 100%;
+	height: 10vh;
+	background-size: 100% 100%;
+	border-radius: 20px;
+}
+
+.space01{
+
+	margin: 0 0 0 20%;
+	width: 5%;
+	height: 6vh;
+
+}
+
+nav{
+
+}
+
+ul{
+	display: flex;
+	list-style-type: none;
+
+}
+
+ul li{
+	margin: 5%;
+}
+
+ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	paddig: 1% 0	;
+}
+
+ul li a:hover{
+	color: #e5b436;
+	text-decoration: underline;
+
+}
+
+/****		main	****/
+
+main{
+	padding: 5%;
+}
+
+/********			personalizer link			********/
+.personalizer-link-wrapper{
+	display: grid;
+	padding: 10% 5%;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 5%;
+
+
+	border: 2px solid red;
+}
+.personalizer-link{
+	display: block;
+	text-decoration: none;
+	
+	border-radius: 12px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+.personalizer-link-image{
+	background-color: #00c4c2;
+	padding: 5%;
+	width: 90%;
+	height: 20vh;
+	border-top-right-radius: 12px;
+	border-top-left-radius: 12px;
+
+	transition: background-color 0.3s;
+
+}
+
+.personalizer-link-caption{
+	text-align: center;
+	text-transform: uppercase;
+	padding: 6% 0;
+	font-weight: bold;
+	color:  #00c4c2;
+
+	transition: color 0.3s;
+}
+
+.personalizer-link-image:hover{
+
+
+	background-color: #e5b436;
+}
+
+.personalizer-link:hover  .personalizer-link-caption{
+
+	color: #e5b436;
+}
+
+
+
+
+
