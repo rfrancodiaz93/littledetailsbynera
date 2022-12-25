@@ -80,7 +80,7 @@ main{
 /********			personalizer link			********/
 .personalizer-link-wrapper{
 	display: grid;
-	padding: 10% 5%;
+	padding: 5%;
 	grid-template-columns: repeat(4, 1fr);
 	gap: 5%;
 
